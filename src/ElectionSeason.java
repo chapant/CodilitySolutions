@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class ElectionSeason {
     public String findWinner(String[] votes){
-        HashMap<String, Integer> map = new HashMap<String, Integer>();
+        HashMap<String, Integer> map = new HashMap<>();
         int highest = 0;
         String name = votes[0];
         for(String vote : votes){
